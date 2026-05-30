@@ -1,0 +1,15 @@
+CEC2005 comparison: final error (f - f*) over 15 runs, budget 10000*D FES
+
+Function                 D Opt          Mean          Std         Best        Worst
+F1 Shifted Sphere        2 GA     0.0000e+00   0.0000e+00   0.0000e+00   0.0000e+00
+F1 Shifted Sphere        2 PSO    0.0000e+00   0.0000e+00   0.0000e+00   0.0000e+00
+F1 Shifted Sphere        2 SA     1.6105e-01   3.1665e-01   6.2128e-03   1.2694e+00
+F1 Shifted Sphere       10 GA     1.0986e-02   5.6509e-03   2.2113e-03   2.1213e-02
+F1 Shifted Sphere       10 PSO    6.3804e+01   2.4711e+02   0.0000e+00   9.5706e+02
+F1 Shifted Sphere       10 SA     8.8869e+00   6.4794e+00   2.9389e+00   2.9461e+01
+F9 Shifted Rastrigin     2 GA     9.3488e-12   3.6208e-11   0.0000e+00   1.4023e-10
+F9 Shifted Rastrigin     2 PSO    0.0000e+00   0.0000e+00   0.0000e+00   0.0000e+00
+F9 Shifted Rastrigin     2 SA     4.1946e-01   4.6005e-01   5.0542e-07   1.0623e+00
+F9 Shifted Rastrigin    10 GA     1.8022e-02   1.1390e-02   4.9713e-03   4.1650e-02
+F9 Shifted Rastrigin    10 PSO    1.1448e+01   6.5219e+00   2.9849e+00   2.8752e+01
+F9 Shifted Rastrigin    10 SA     2.1599e+01   9.1770e+00   4.9768e+00   3.8419e+01

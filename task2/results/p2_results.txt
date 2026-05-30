@@ -1,0 +1,7 @@
+Part 2 - GA optimisation of the FLC
+Chromosome length L = 31 (real-valued MF breakpoints)
+GA: pop=50 gen=80 tournament=3 pc=0.90 BLX-alpha=0.50 pm=0.15 elite=2
+Baseline MSE = 300.8542  (RMSE 17.3451)
+Hand-coded GA MSE = 57.1505  (RMSE 7.5598)
+Toolbox ga() MSE  = 136.6943  (RMSE 11.6916)
+Improvement = 81.0% reduction in MSE

@@ -1,0 +1,41 @@
+# This repository holds the dataset, code, figures and result tables for both tasks.
+# Compiled PDFs and local-only helpers are ignored below.
+
+# Virtual environment
+.venv/
+venv/
+
+# Python cache
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/
+
+# Intermediate processed data (regenerable by the notebook; large pickles)
+task1/data/processed/
+
+# Compiled PDFs are kept local, not committed (one file per task is submitted separately)
+*.pdf
+
+# LaTeX / merge build artefacts
+*.aux
+*.toc
+*.out
+*.lof
+*.synctex.gz
+missfont.log
+combined/
+
+# Local-only documents and helpers (not part of the code submission)
+task1/paper/
+build_notebook.py
+Task*_Implementation_Guide.md
+STW7085CEM*.pdf
+Eklak_Dangaura_250145.pdf
+
+# Build / OS junk
+*.log
+.DS_Store
+Thumbs.db
+.vscode/
+_st.txt

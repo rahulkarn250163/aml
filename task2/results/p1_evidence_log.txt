@@ -1,0 +1,12 @@
+FLC: RoomClimateFLC  (Mamdani, centroid)
+Inputs: temperature[10 35], activity[0 10]; Output: hvac[-100 100]
+Rules: 15
+
+Rule activation at temperature=29 activity=7:
+  rule 12 firing strength 0.333
+  rule 15 firing strength 0.250
+  -> hvac output -79.41
+
+Scenario extremes:
+  max cooling -84.0 at t=13.50h (temp=27.1 act=7.9)
+  max heating 40.0 at t=0.00h (temp=20.0 act=1.5)

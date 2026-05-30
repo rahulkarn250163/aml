@@ -1,0 +1,15 @@
+CEC2005 toolbox cross-check: error (f - f*) over 15 runs
+
+Function                 D Optimiser                  Mean          Std         Best        Worst
+F1 Shifted Sphere        2 ga()                 6.4231e-10   9.6764e-10   1.7621e-12   3.1161e-09
+F1 Shifted Sphere        2 particleswarm()      1.2983e-08   1.7907e-08   5.9117e-12   5.1798e-08
+F1 Shifted Sphere        2 simulannealbnd()     1.6885e-05   6.0787e-05   3.2884e-10   2.3640e-04
+F1 Shifted Sphere       10 ga()                 1.0120e-03   1.0708e-03   1.5039e-05   4.4109e-03
+F1 Shifted Sphere       10 particleswarm()      2.2222e-05   2.3024e-05   3.1001e-06   8.7705e-05
+F1 Shifted Sphere       10 simulannealbnd()     4.6088e-01   2.5858e-01   1.6144e-01   8.8605e-01
+F9 Shifted Rastrigin     2 ga()                 3.3165e-01   6.1410e-01   2.2976e-10   1.9899e+00
+F9 Shifted Rastrigin     2 particleswarm()      1.2796e-07   4.4936e-07   0.0000e+00   1.7491e-06
+F9 Shifted Rastrigin     2 simulannealbnd()     4.1910e-01   4.9318e-01   4.5410e-09   9.9497e-01
+F9 Shifted Rastrigin    10 ga()                 2.5215e+00   4.1852e+00   1.6533e-04   1.4925e+01
+F9 Shifted Rastrigin    10 particleswarm()      1.1664e+01   6.8312e+00   4.9748e+00   3.0975e+01
+F9 Shifted Rastrigin    10 simulannealbnd()     1.8022e+01   6.1488e+00   1.0963e+01   2.9880e+01
